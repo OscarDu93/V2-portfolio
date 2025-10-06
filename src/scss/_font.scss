@@ -1,0 +1,121 @@
+.text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.hat {
+  color: #000;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.introduction {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.introduction::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 10px;
+  background: currentColor;
+  transition: width 0.2s ease-in-out;
+}
+
+.introduction:hover::after {
+  width: 100%;
+}
+
+.introduction :hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+.head {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: 0.5s;
+}
+
+.head:hover {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.darkhead {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: all 1s ease-out;
+  transition: 0.5s;
+}
+
+.darkhead:hover {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.chapters {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  mix-blend-mode: exclusion;
+}
+
+.Name {
+  color: #00ff0d;
+  font-family: Roboto;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  mix-blend-mode: exclusion;
+}
+
+.name {
+  color: #000;
+  font-family: Roboto;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
