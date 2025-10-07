@@ -1,0 +1,29 @@
+.l-projects {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.l-about {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.l-introduction {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  .l-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}

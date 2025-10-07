@@ -1,0 +1,31 @@
+.title {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  margin-top: 60px;
+}
+
+.hat {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 90%;
+}
+
+.text {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
