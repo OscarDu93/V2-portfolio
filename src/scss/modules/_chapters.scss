@@ -4,7 +4,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   opacity: 0%;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .chapter {
@@ -201,4 +201,27 @@
   position: relative;
   align-items: center;
   background: url("/src/img/art/8.jpg") center/cover no-repeat;
+}
+
+.chapter.nine {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 115px;
+  flex-shrink: 0;
+  background: url("/src/img/art/9.jpg") center/cover no-repeat;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+}
+
+.chapter.nine:hover {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 172px;
+  flex-shrink: 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background: url("/src/img/art/9.jpg") center/cover no-repeat;
 }
