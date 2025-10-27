@@ -7,25 +7,24 @@
 .swiper-wrapper {
   margin-top: 62px;
   display: flex;
+  align-items: center;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .swiper-slide img {
-  max-width: 850px;
-  width: 100%;
+  padding-top: 5%;
+  max-height: 80vh;
+  max-width: 90%;
   height: auto;
+  width: auto;
   object-fit: cover;
 }
 
-/* Pagination dots Swiper */
-/* Container des dots */
 .swiper-pagination {
   display: flex;
   justify-content: center;
@@ -33,7 +32,6 @@
   margin-top: 20px;
 }
 
-/* Chaque dot personnalisé */
 .swiper-pagination-bullet {
   border: 1px solid #585858;
   width: 10px;
@@ -49,7 +47,6 @@
   object-fit: cover;
 }
 
-/* Dot actif */
 .swiper-pagination-bullet-active {
   opacity: 1;
 }
