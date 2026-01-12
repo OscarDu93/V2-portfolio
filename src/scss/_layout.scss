@@ -13,10 +13,10 @@
 }
 
 .l-introduction {
-  display: inline-flex;
+  margin-top: 60px;
+  background-color: white;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {

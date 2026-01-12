@@ -226,35 +226,6 @@
   background: url("/src/img/art/9.jpg") center/cover no-repeat;
 }
 
-.photo-title {
-  margin-top: 50px;
-}
-
-.image-back {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 30vh;
-  flex-shrink: 0;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  background: url("/src/img/art/1.jpg") center/cover no-repeat;
-  transition-duration: 0.5s;
-  opacity: 0;
-}
-
-.photo-title:hover .image-back {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  background: url("/src/img/art/1.jpg") center/cover no-repeat;
-  opacity: 1;
-}
-
 .projects-classes {
   background-color: #fff;
 }
