@@ -73,7 +73,6 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  transition: 0.5s;
   text-decoration: none;
 }
 
@@ -98,14 +97,14 @@
   text-decoration: none;
 }
 
-.darkhead:hover {
-  color: #ffffff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+// .darkhead:hover {
+//   color: #ffffff;
+//   font-family: Roboto;
+//   font-size: 15px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: normal;
+// }
 
 .chapters {
   color: #fff;
